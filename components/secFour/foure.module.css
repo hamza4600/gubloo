@@ -1,0 +1,45 @@
+.FOne{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+}
+.Fone{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 230px;
+    margin-bottom: 10px;
+}
+.Fone h1{
+    font-size: 48px;
+    font-weight: 800;
+    color:  #EE5C56;
+}
+.Fone p{
+    word-spacing: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(243,123 ,125 );
+
+}
+.Ftwo{
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+}
+.Ftwo p{
+    font-style: italic;
+    color: rgb(243,123 ,125 );
+    font-size: 24px;
+    font-weight: 600;
+}
+.Ftwo span{
+    font-size: 16px;
+    font-weight: 700;
+    color:  #EE5C56;
+
+}

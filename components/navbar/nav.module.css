@@ -1,0 +1,49 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.None{
+    top: 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Ntwo{
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+.Schl button{
+    text-transform: uppercase;
+    height: 45px;
+    padding: 12px 24px 12px 24px;
+    cursor: pointer;
+    font-weight: 700;
+    background-color :rgb(243, 123, 125);
+    font-size: 16px;
+    border-radius: 50px;
+    border: none;
+    color: white;
+}
+
+.Icon{
+    cursor: pointer;
+    font-size: 14px;
+    white-space: nowrap;
+    color: #EE5C56;
+    font-weight: 700;
+    font-size: 18px;
+
+}
+.Lists{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+    text-transform: capitalize;
+}

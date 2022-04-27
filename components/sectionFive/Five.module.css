@@ -1,0 +1,84 @@
+.Five{
+    font-family: "Inter", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+.Con{
+    font-size: 48px;
+    font-weight: 900;
+    color: #EE5C56;
+    text-transform: capitalize;
+
+}
+.Main{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    height: 90vh;  
+}
+.Right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+.Left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+}
+.Input input{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(243,123 ,125 );
+    border: 2px solid #EE5C56 ;
+    height: 60px;
+    border-radius: 12px;
+    padding: 7px 20px;
+    margin: 10px;
+    width: 550px;
+}
+.Input input::placeholder{
+    color: #EE5C56;
+}
+.Input input:focus{
+    outline: none;
+}
+.Area{
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(243,123 ,125 );
+    border: 2px solid #EE5C56 ;
+    border-radius: 20px;
+    width: 550px;
+    height: 200px;
+    resize: none;
+    font-weight: 600;
+}
+.Area:focus{
+    outline: none;
+}
+.Area::placeholder{
+    color: #EE5C56;
+}
+.Send{
+    padding: 20px 40px;
+    font-size: 22px;
+    background-color: #EE5C56;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    text-transform: uppercase;
+    position: relative;
+    right: 150px;
+    top: 40px;
+    cursor: pointer;
+}

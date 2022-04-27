@@ -1,0 +1,44 @@
+.STone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10px;
+
+}
+.Stwo h1{
+    color: #EE5C56;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+
+}
+
+
+.SmList{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+.SmList p{
+    font-weight: 500;
+    padding: 7px 14px;
+    cursor: pointer;
+    text-transform: capitalize;
+    color: rgb(243, 123, 125);
+    font-size: 18px;
+}
+.ImgList{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.Immg{
+    cursor: pointer;
+    display: flex;
+    position: relative;
+    padding: 10px;
+}
